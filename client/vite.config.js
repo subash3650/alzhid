@@ -8,6 +8,6 @@ export default defineConfig({
     port: 3000,
   },
   preview: {
-    allowedHosts: ['alzhid-frontend.onrender.com']
+    allowedHosts: ['alzhid-frontend.onrender.com', 'alzhid-client.onrender.com']
   }
 })
