@@ -1,0 +1,98 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# Temporary & Log Files
+*.log
+*.pot
+*.mo
+instance/
+.webassets-cache
+.scrapy
+docs/_build/
+target/
+.ipynb_checkpoints
+.pytype/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# OS Files
+.DS_Store
+Thumbs.db
+*.tmp
+temp/
+tmp/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Node modules (if any in root)
+node_modules/
+
+# PROJECT SPECIFIC FILES
+# Alzheimer's Dataset (too large for GitHub)
+server/alzheimer_dataset/
+server/uploads/
+
+# Trained Models (too large for GitHub)
+server/trained_models/*.h5
+server/trained_models/*.pkl
+
+# Keep only the directory structure
+!server/trained_models/.gitkeep
+!server/uploads/.gitkeep
+
+# Frontend build files
+client/dist/
+client/dist-ssr/
+client/node_modules/
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
