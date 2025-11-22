@@ -29,7 +29,7 @@ app = Flask(__name__)
 # Enable CORS for React frontend
 CORS(app, resources={
     r"/api/*": {
-        "origins": ["http://localhost:3000", "http://127.0.0.1:3000", "https://alzhid-frontend.onrender.com"],
+        "origins": ["http://localhost:3000", "http://127.0.0.1:3000", "https://alzhid-frontend.onrender.com", "https://alzhid-client.onrender.com"],
         "methods": ["GET", "POST"],
         "allow_headers": ["Content-Type"]
     }
